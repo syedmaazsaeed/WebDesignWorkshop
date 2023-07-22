@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.3.0/dist/flickity.min.css">
+    
+    <title>Document</title>
+</head>
+<style>
+ 
+.carousel-cell img{
+    height: 510px;
+    width: 1349px;
+
+}
+/* .carousel-cell{
+    width: 100%;
+} */
+
+    /* background: #ED2; */
+
+/* width: 100%;  full width 
+  height: 560px;  height of carousel 
+  margin-right: 5px; */
+   
+
+
+/* position dots up a bit */
+/* .flickity-page-dots {
+  bottom: -22px;
+} */
+
+
+
+/* .flickity-enabled:focus .flickity-viewport {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+} */
+
+/* 
+dots are lines 
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+} */
+
+
+/* .flickity-page-dots {
+  bottom: 0px;
+}
+ white circles 
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+ fill-in selected dot 
+.flickity-page-dots .dot.is-selected {
+  background: white;
+} */
+
+
+
+/* .flickity-button:disabled {
+  display: none;
+} */
+
+/* .flickity-viewport {
+  transition: height 0.2s;
+}  work when height is set auto */
+/* .heading{
+ text-align: center;
+} */
+
+.main-carousel{
+  position: relative;
+
+}
+
+.p1{
+  position: absolute;
+  top: 30%;
+  color: black;
+  width: 700px;
+  padding-left: 80px;
+}
+.p2{
+  color: red;
+}
+.p3{
+  display: none;
+  background-color: lightskyblue;
+  opacity: 0.6;
+}
+.p1:hover .p3{
+  display: block;
+
+}
+.p2:hover {
+  color: grey;
+
+}
+*{
+     /* margin:0; */
+     padding:0;
+    }
+
+    .Shah-sahab {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: palegreen;
+      
+       
+       
+    }
+    
+ 
+    ul {
+        list-style-type: none;
+        position: relative;
+    }
+
+    li {
+        display: inline;
+        padding: 10px 30px;
+
+    }
+
+    li a {
+        text-decoration: none;
+  
+        color: palegreen;
+    }
+    li a:hover{
+
+      color: red;
+    }
+    ul li ul li{
+        display: block;
+        padding: 1rem 4px;
+        background-color: rosybrown;
+        color: purple
+   
+        
+    }
+    
+    
+    ul li ul  {
+    position: absolute;
+    top: 10;
+    left: 7rem;
+    display: none;
+ 
+}
+/* ul li  :hover ul {
+   display: none;
+} */
+ul li ul li:hover {
+    background-color: peru;
+  
+}
+
+</style>
+
+
+
+
+
+<body>
+
+  <nav class="Shah-sahab">
+            
+    <h3>SOFTWARE  DOMAINS</h3>
+   
+    <ul>
+
+       
+        <li>Analysis
+            <ul>
+                <li> Understand Requirements.</li>
+                <li>Define Requirements.</li>
+                <li>Brainstorming.</li>
+                <li>Observation.</li>
+           
+            </ul>
+        </li>
+        
+
+        <li>Feasibility study</li>
+        <li> <a href="https://www.sciencedirect.com/topics/computer-science/application-domain"> Set Goals </a>
+        </li>
+        <li> Testing</li>
+        <li> <a href="https://www.perforce.com/blog/the-future-of-software-development"> Implementation </a>
+        </li>
+        <li>Validation</li>
+    </ul>
+
+
+
+
+</nav>
+
+
+<div class="main-carousel">
+ 
+    <div class="carousel-cell"> <img src="../Images/newpic.jpg" alt="" width="100%"></div>
+     
+   
+    <div class="carousel-cell"> <img src="../Images/mercedes.jpg" alt=""  ></div>
+    <div class="carousel-cell"> <img src="../Images/newpic3.jpg" alt="" width="100%"></div>
+    <div class="carousel-cell"> <img src="../Images/newpic4.jpg" alt="" width="100%"></div>
+    <div class="carousel-cell"> <img src="../Images/newpic5.jpg" alt="" width="100%"></div>
+    <div class="carousel-cell"> <img src="../Images/newpic6.jpg" alt="" width="100%"></div>
+    <div class="carousel-cell"> <img src="../Images/newpic11.jpg" alt="" width="100%"></div>
+    <div class="carousel-cell"> <img src="../Images/mercedesnewpic32.jpg" alt="" width="100%"></div>
+    
+    
+  </div>
+   
+  <div class="p1">
+    <div class="p2">
+      <h1>
+        History of Artifical-Intelligence</h1>
+    </div>
+      <div class="p3">
+      <p>The history of artificial intelligence dates back to antiquity with philosophers mulling over the idea that artificial beings, mechanical men, and other automatons had existed or could exist in some fashion.
+
+        Thanks to early thinkers, artificial intelligence became increasingly more tangible throughout the 1700s and beyond. Philosophers contemplated how human thinking could be artificially mechanized and manipulated by intelligent non-human machines. The thought processes that fueled interest in AI originated when classical philosophers, mathematicians, and logicians considered the manipulation of symbols (mechanically), eventually leading to the invention of the programmable digital computer, the Atanasoff Berry Computer (ABC) in the 1940s. This specific invention inspired scientists to move forward with the idea of creating an “electronic brain,” or an artificially intelligent being.</p>
+    </div>
+   
+  </div>
+<script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.js"></script>
+<script>
+
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true,
+  pageDots: false,
+
+
+
+
+
+  //adaptiveHeight: true,
+
+  //fullscreen: true,
+
+  autoPlay: 2500
+
+  //pauseAutoPlayOnHover: true
+      
+  
+  //autoPlay: true
+
+
+  // groupCells: true apply when width is less then 100 otherwise not be work
+
+ //  freeScroll: true,
+// wrapAround: true
+  
+
+  //freeScroll: true,
+//contain: true,
+
+
+// disable previous & next buttons and dots
+//prevNextButtons: false,
+//pageDots: false 
+
+//   draggable: true
+//   draggable: false
+});
+
+
+
+
+
+</script>
+
+
+    
+    
+</body>
+</html>
+
+
+
+
+ <!-- main-crausel ka andar bhot sary carausel cells hon ga -->
+ <!-- link file css use link tag and link java so use script tag -->

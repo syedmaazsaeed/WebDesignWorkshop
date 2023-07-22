@@ -1,0 +1,74 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: purple;
+    color: wheat;
+}
+/* ul li ul li ul{
+    display: block;
+    padding: 0.5rem 1rem;
+    
+   
+}
+
+
+ul li ul li ul li {
+     display: block; 
+    padding: 0.5rem 3rem;
+  
+}
+ul li ul li ul li ul li{
+     display: block; 
+    padding: 12px 2rem;
+}
+ul li ul li ul li ul li ul li{
+    display: block;
+    padding: 12px 2rem;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+
+}
+
+
+ul li ul {
+    position: absolute;
+    top: 10;
+    left: 7rem;
+    display: none;
+}
+
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul li  {
+    padding: 1rem 2rem;
+    display: block;
+    background-color: lightslategray;
+    color: black;
+}
+
+ul li ul li:hover {
+    background-color: peru;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+} */
+
+
+
+

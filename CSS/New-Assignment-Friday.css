@@ -1,0 +1,534 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container1{
+    height: 89vh;
+    background-color: #123;
+
+}
+.subparent{
+   
+    padding-top: 8%;
+   
+    text-align: center;
+}
+.container1 ul li{
+    
+    color: white;
+    display: inline;
+    display: flex;
+    margin-right: 1%;
+    font-size:60px;
+    margin-top: -5%;
+    justify-content: flex-end;  
+  
+}
+.container1 .h1{
+    color: white;
+
+}
+.container1 .h4{
+    color: white;
+    padding-top: 2%;
+}
+.container1 button{
+    height: 59px;
+    width: 204px;
+    font-size: 20px;
+   background-color: blue;
+   border-radius: 10px;
+   color: white;
+    border: none;
+    margin-top: 2%;
+    /* margin-left: 10%; */
+
+}
+.container1 button:hover{
+    background-color: blueviolet;
+}
+.card-image{
+    height: 260px;
+    padding-top: 3%;
+    padding-left: 31%;
+}
+.container2{
+    height: 100vh;
+    display: flex;
+
+    
+    
+}
+
+.paramove h2{
+    padding-top: 54%;
+    padding-left: 41%;
+    font-size: 30px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color{
+    color: #800080;
+}
+.paramove .p1{
+
+    width: 390px;
+
+}
+.paramove .p2{
+
+    width: 390px;
+}
+
+.para2nd .p4{
+    padding-left: 46%;
+    padding-top: 1%;
+    color: #800080;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para2nd{
+    padding-top: 3%;
+    
+}
+.para2nd h2{
+    padding-left: 40%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.para2nd .p3{
+    width: 390px;
+    padding-left: 36%;
+    padding-top: 1%;
+    text-align: center;
+}
+.container3{
+
+    height: 70vh;
+    
+    background-color:#2afeb7;
+    margin-top: 4%;
+  
+
+}
+.circle{
+    height: 410px;
+    width: 410px;
+    border-radius: 50%;
+    background-color: #FFDCD1;
+    position: absolute;
+     /* z-index: -1;  */
+    margin-left: 60%;
+    /* margin-top: -1%; */
+
+}
+.container3 img{
+    height: 382px;
+ width: 44vw; 
+ padding-top: 4%;
+    padding-left: 29%;  
+
+    position: relative;
+}
+  .container4{
+    height: 41vh;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .color4set{
+    color: #800080;
+    font-weight: bold;
+  }
+  .container4 p{
+    width: 400px;
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container5{
+    height: 94vh;
+    background-color: #C364FA;
+  
+
+  }
+  .image5 img{
+    height: 70vh;
+    width: 55vw;
+    padding-left: 24%;
+    padding-top: 4.5%;
+    position: relative;
+    
+   
+   
+ 
+  }
+  .circle5{
+    height: 410px;
+    width: 410px;
+    border-radius: 50%;
+    background-color:dodgerblue;
+    position: absolute;
+     top: 318%;
+     left: 6%;
+     /* z-index: -1; */
+  }
+
+  .container6{
+    height: 41vh;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .color5set{
+    color: #800080;
+    font-weight: bold;
+  }
+  .container6 p{
+    width: 400px;
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container7{
+    height: 85vh;
+    background-color: yellow;
+}
+.image7 img{
+    height: 70vh;
+    width: 55vw;
+    padding-left: 23%;
+    padding-top: 5%;
+    position: relative;
+}
+.circle7{
+    height: 410px;
+    width: 410px;
+    border-radius: 50%;
+    background-color:dodgerblue;
+    position: absolute;
+    left: 64%;
+    top: 456%;
+    
+}
+.container8{
+    height: 125vh;
+    background-color: whitesmoke;
+    text-align: center;
+  
+  
+}
+.container8 h1{
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container8 .smallpara{
+    width: 380px;
+    padding-left: 37%;
+    padding-top: 1%;
+}
+.container8 .p8th{
+    width: 380px;
+    padding-top: .5%;
+    padding-left: 37%;
+ 
+}
+.imageinsert1 img{
+    padding-top: 6%;
+}
+.container8 .subpara8{
+    width: 380px;
+    padding-top: 1%;
+    padding-left: 37%;
+ 
+}
+.imageinsert2 img{
+    margin-top: 3%;
+}
+
+.container8 .para8{
+    width: 380px;
+    padding-top: 1%;
+    padding-left: 37%;
+ 
+}
+.imageinsert3 img{
+    margin-top: 5%;
+}
+
+.container9 img{
+    /* height: 100vh; */
+    width: 100%;
+}
+.container10{
+    height: 100%;
+   
+}
+.container10 p{
+    width: 338px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: larger;
+padding-top: 3%;
+padding-left: 16%;
+
+  
+}
+.doublequote{
+    font-size: 80px;
+    color: black;
+    
+}
+.image10 img{
+    height: 330px;
+    width: 390px;
+    padding-left: 14%;
+}
+.lasthead{
+    padding-left: 20%;
+}
+.container11 img{
+    height: 95vh;
+    width: 100%;
+    
+}
+
+
+.container12{
+    height: 70vh;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.container12 .h11{
+   padding-top: 2%;
+}
+.container12 .pr{
+    width: 530px;
+   padding-left: 29.7%;
+   padding-top: .5%;
+}
+.image12{
+    
+    display: grid;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 3.5%;
+}
+.image12 .img12{
+    border-radius: 15px;
+
+}
+.image12 .img23{
+    border-radius: 15px;
+
+}
+.image12 .img34{
+    border-radius: 15px;
+
+}
+
+.p12{
+    padding-right: 37%;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    font-size: 11px;
+    font-weight: bold;
+}
+.p23{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: -1%;
+}
+.p34{
+    padding-left: 35%;
+    margin-top: -2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+ 
+}
+ .bt12 Button{
+    height: 30px;
+    width: 130px;
+    border-radius:6px;
+    border: none;
+    background-color: blue;
+    margin-top: 2%;
+    color: white;
+}
+.bt12 Button:hover{
+    background-color: blueviolet;
+}
+
+.container13{
+    height: 90vh;
+    display: flex;
+}
+.container13 .pr13{
+    width: 396px;
+    padding-top: 4%;
+    padding-left: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}
+.para13{
+  padding-left:55%;
+  padding-top: 6%;
+  width: 300px;
+}
+.p13color{
+    color: #800080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+ .container13 .img13{
+    height: 45vh;
+    width: 93%;
+    padding-left: 36.7%;
+    
+ }
+ .prnt13 .h13{
+    padding-left: 59%;
+    width: 330px;
+    padding-top: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+ }
+ .nextdata{
+    height: 54vh;
+    margin-top: -15%;
+    padding-left: 35%;
+ }
+ .nextdata h1{
+    padding-left: 4%;
+ }
+ .img13set img{
+    height: 190px;
+    width: 240px;
+    padding-left: 11%;
+ }
+ .pp13{
+  width: 505px;
+    font-size: 13px;
+ }
+ .bt14 Button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 4%;
+    margin-left: 41%;
+    height: 47px;
+    width: 215px;
+    border-radius:6px;
+    border: none;
+    background-color:#800080;
+    color: white;
+   
+    
+
+ }
+ .bt14 Button:hover{
+    background-color: #123;
+    transition: all 1s;
+ }
+ .h14{
+    padding-left: 35%;
+    padding-top: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+ }
+ .pr14{
+    padding-left: 23%;
+    padding-top: 1%;
+    color: white;
+    position: absolute;
+ }
+
+ .container14{
+    height: 100vh;
+   background-color:rgba(184, 61, 255, 0.829);
+   position: relative;
+ 
+
+
+
+ }
+ .circle14{
+    position: absolute;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 70%;
+    left: 65%;
+    height: 100vh;
+    width: 35%;
+    background-color:lightpink;
+
+  
+  
+
+ }
+ .image14{
+    margin-left: 8%;
+ }
+
+
+ .image14 img {
+
+
+     height: 340px; 
+    width: 260px; 
+    position: relative;
+    padding-top: 6%;
+    padding-left: 1.5%;
+    
+
+ }
+
+ .container15{
+    height: 100vh;
+ }
+.h15{
+    padding-left:25%;
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.colorp15{
+    color: #800080;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+ .image15{
+    padding-left: 59%;
+margin-top: -25%;
+ }
+ .p15{
+    width: 440px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 25%;
+    padding-top: 1%;
+
+ }
+
+ .container16{
+    height: 75vh;
+    background-color: whitesmoke;
+ }

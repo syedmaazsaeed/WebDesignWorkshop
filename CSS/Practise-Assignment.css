@@ -1,0 +1,40 @@
+.parent {
+    display: flex;
+padding: 16px;
+}
+
+.child1 {
+    width: 15%;
+    background-color: darkgray;
+    margin: 1rem;
+
+
+}
+.parent-1{
+    padding-left: 3px;
+
+}
+
+.child2 {
+    width: 79%;
+}
+
+.k {
+    color: orangered;
+}
+
+.k1 {
+    color: orangered;
+}
+
+.parent-2 {
+    width: 35%;
+    background-color: lightgray;
+    padding-left: 26px;
+}
+ .Grandparent{
+    display: flex;
+} 
+.k2{
+    width: 380px;
+}

@@ -1,0 +1,21 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+#Hello{
+    color: chocolate;
+}
+
+.Jack{
+    color: gold;
+}
+.Tommy{
+    color: purple;
+}
+#Rt{
+    color: brown;
+}
+#Hello{
+    color: yellowgreen !important;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        background-color: #123;
+        padding-left: 40px;
+        padding-top: 19px;
+        padding-right: 30px;  
+        padding-bottom: 15px;
+
+    }
+
+    .nav-list {
+        list-style-type: none;
+        position: relative;
+    }
+
+    .nested-nav {
+        display: inline;
+        padding: 10px 33px;
+    }
+    .nav-list1{
+        list-style-type: none;
+        position: absolute;
+        background-color: red;
+        display: none;
+        left: 100px;
+      
+    }
+   
+    
+    .nav-list .nested-nav:hover .nav-list1{
+        display: block;
+       
+    }
+    .nested-nav-2{
+        background-color: olive;
+        padding: 22px;
+    
+        
+    }
+    .nested-nav-2:hover{
+        background-color: blue;
+    }
+    .further-nested{
+        background-color: turquoise;
+        display: block;
+        left: 100%;
+        position: absolute;
+        display: none;
+        top: 95px;
+     
+    }
+    .further-nested1:hover{
+        background-color: red;
+
+    }
+    .further-nested1{
+        display: block;
+        padding: 20px;
+    
+    
+    }
+    ul li ul li:hover .further-nested{
+        display: block;
+        
+    }
+   .further-nested1{
+    list-style-type: none;
+   }
+   .further-nested2{
+    display: block;
+        padding: 20px;
+    
+   }
+.further-nested2:hover{
+    background-color: orchid;
+    
+}
+.further-nested-list{
+    background-color: orange;
+        display: none;
+        left: 100%;
+        position: absolute;
+        top: 67%;
+        
+        
+}
+ul li ul li ul li:hover .further-nested-list{
+        display: block;
+        
+    }
+    .further-nested-list1{
+        list-style-type: none;
+        padding: 13px;
+    
+    }
+    .further-nested3:hover{
+        background-color: darkgoldenrod;
+    }
+   
+    ul li ul li ul li ul li:hover .further-nested-list1{
+        display: block;
+    }
+    .further-nested-list1{
+        background-color: rosybrown;
+        display: none;
+        left: 100%;
+        position: absolute;
+        top: 67%;
+    }
+   
+  
+   
+   
+  
+</style>
+
+
+<body>
+
+    <header>
+        <nav class="navigation-bar">
+
+            <h1>Designer</h1>
+
+            <ul class="nav-list">
+
+                <li class="nested-nav">Fork</li>
+                <li class="nested-nav">Fork
+
+                    <ul class="nav-list1">
+
+                        <li class="nested-nav-2">Subscript</li>
+                        <li class="nested-nav-2">Subscript
+                            <ul class="further-nested">
+                                <li class="further-nested1">Qwerty</li>
+                                <li class="further-nested1">Qwerty</li>
+                                <li class="further-nested1">Qwerty
+                                    <ul class="further-nested-list">
+                                        <li class="further-nested2">Database</li>
+                                        <li class="further-nested2">Database</li>
+                                        <li class="further-nested2">Database
+                                            <ul class="further-nested-list1">
+                                                <li class="further-nested3">UK</li>
+                                                <li class="further-nested3">LONDON</li>
+                                                <li class="further-nested3">Manchester</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nested-nav-2">Subscript</li>
+                        <li class="nested-nav-2">Subscript</li>
+                    </ul>
+                </li>
+
+
+                <li class="nested-nav">Fork</li>
+                <li class="nested-nav">Fork</li>
+                <li class="nested-nav">Fork</li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>

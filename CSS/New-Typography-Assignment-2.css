@@ -1,0 +1,51 @@
+.Parent {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+
+
+}
+
+.kid1 {
+    height: 70px;
+    width: 70px;
+    font-size: medium;
+    text-align: center;
+    background-color: green;
+    border-radius: 100%;
+    color: white;
+  
+
+
+
+}
+
+.kid2 {
+    height: 100px;
+    width: 220px;
+    font-size: medium;
+    margin-top: 330px;
+    margin-left: 40px;
+   
+
+}
+
+.kid3 {
+    height: 100px;
+    width: 220px;
+    font-size: medium;
+    margin-top: 320px;
+    margin-left: 80px;
+
+
+}
+
+.kid4 {
+    height: 100px;
+    width: 220px;
+    font-size: medium;
+    margin-top: 320px;
+    margin-left: 140px;
+}

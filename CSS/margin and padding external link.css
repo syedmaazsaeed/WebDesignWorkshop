@@ -1,0 +1,181 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  
+  /*parent div*/
+   .rubby{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+   margin-left: 40px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    
+}
+.tommy{
+    height: 190px;
+    width: 220px;
+    background-color: yellow;
+
+    padding-bottom: 110px;
+    padding-left: 65px;
+    box-sizing: border-box;
+    padding-top: 50px;
+ 
+}
+.java{
+    height: 100px;
+    width: 90px;
+    background-color: red;
+
+}
+.java-script{
+
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+    margin-top: -300px;
+    margin-left: 490px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+    
+   
+    
+    
+   
+   
+    
+}
+.Rubby{
+    height: 190px;
+    width: 220px;
+    background-color: brown;
+    padding-bottom: 110px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 65px;
+    
+   
+    
+}
+.jj{
+    height: 100px;
+    width: 90px;
+    background-color:orange;
+   
+ 
+    
+}
+
+.intel{
+    height: 300px;
+    width: 400px;
+    background-color: gold;
+    margin-left: 40px;
+   margin-top: 20px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 50px;
+}
+.silicon-valley{
+    height: 190px;
+    width: 220px;
+    background-color: purple;
+    box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 65px;
+  padding-bottom: 110px;
+  
+}
+.IELTS{
+    height:100px ;
+    width:90px ;
+    background-color: darkgreen;
+
+}
+.DELL{
+    height:300px ;
+    width: 400px ;
+    background-color: darkcyan;
+    margin-left: 490px;
+    margin-top: -300px;
+    box-sizing: border-box;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.Lenovo{
+    height: 190px;
+    width: 220px;
+    background-color: tomato;
+    box-sizing: border-box;
+    padding-left: 65px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+  
+}
+.Hacker{
+    height:100px ;
+    width:90px ;
+    background-color: darkgreen;
+}
+.maaz{
+    height: 300px;
+    width: 400px;
+    background-color: black; 
+    margin-left: 930px;
+    margin-top: -620px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.CIA{
+    height: 190px;
+    width: 220px;
+    background-color: pink;
+    box-sizing: border-box;
+    padding-left: 65px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+.England{
+    height:100px ;
+    width:90px ;
+    background-color: darkgreen;
+   
+   
+    
+    
+}
+.BABAR-Azam{
+    height: 300px;
+    width: 400px;
+    background-color: orange;
+    margin-left: 930px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left:90px ;
+    padding-top: 50px;
+    
+
+  
+}
+.UCP{
+    height: 190px;
+    width: 220px;
+    background-color: deeppink;
+    padding-left: 65px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.web-developer{
+    height:100px ;
+    width: 90px;
+    background-color: darkslategray;
+}

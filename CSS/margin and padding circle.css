@@ -1,0 +1,13 @@
+.maaz{
+    height: 400px;
+    width: 400px;
+   background-color: crimson;
+   border-radius: 50%;
+}
+#ali{
+    width: 0;
+    height: 0;
+    border-left: 460px solid transparent;
+    border-right: 460px solid transparent;
+    border-bottom: 300px solid red;
+}

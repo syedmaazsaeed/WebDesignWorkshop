@@ -1,0 +1,32 @@
+
+    .parent-1{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       /* jab flex da ga to hight or wirth auto select ho jae gi*/ 
+
+    }
+    .parent-2{
+        display: flex;
+    }
+.c1{
+    border: 1px solid black;
+    
+    width: 20%;
+    
+   
+}
+.c2{
+    border: 1px solid black;
+    width: 78%;
+  
+}
+.c3{
+    margin: 0px;
+    margin:10px;
+    /* 1st margin uper or lower side ko set karna ka lei use krty hn aur 2nd wala left right sa set karna ma  */
+    border: 1px solid black;
+    width: 33%;
+    margin-top: 30px;
+  
+}

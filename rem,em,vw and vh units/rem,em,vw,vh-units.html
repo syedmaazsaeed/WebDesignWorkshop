@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size-units</title>
+</head>
+<style>
+    html{
+        font-size: 25px;
+    }
+    .container{
+        font-size: 10px;
+        border: 2px solid red;
+        height: 100vh;
+        /* vh mostly used */
+        width: 100vw; 
+        /* vw not use mostly use % */
+    }
+    /* viewport height ka matlab ha page par jo likhwa wa dikh
+    raha ha us ki puri height la la */
+    h1{
+        text-align: center;
+     
+    }
+    #first{
+        /* font-size: 10em;
+        padding: 3em; 3 guna of font size */
+    }
+    #second{
+        /* font-size: 3rem;
+        padding: 3rem; */
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 id="first" >This is first heading</h1>
+        <h1 id="second" >This is second heading</h1>
+        <h1 id="third" >This is third heading</h1>
+    </div>
+</body>
+</html>
+
+
+<!-- website responsiveness?
+
+
+    hmaesha...rem  jo hamara html ha route element ha us ka 
+    font-size ka relative apna apko resize kar leta ha rem unit 
+    use rem?, em? ...many website design practice
+    ka mujhe yahan par aik asa font-size chayaa jo ka apna parent par 
+    depent kare use em and kabhi kabhi whole page ka size same 
+    rakhna chata hon to tabh rem use kary ga   
+
+     different device run eaisly tab,pc,mobile etc
+    Various way to achieve Responsiveness website design 
+1. setting up the viewport
+2. use max width/max-height 
+3. using css media queries special desing when screen design 
+4. using rem/vh/vw units over pixels   these are all fonts units
+ em parent ka 10 guna ho jae ga  apna parent ka size ka
+em ko tabh use kary ka jab parent ko resize kary ga to us ka 
+child bhi resize ho jae eg agar parent ka font size 10px 
+to child Ka fontsize ham na 3 rakh ha to wo 30 ho jae ga 
+width set eaisly 
+rem hamesha ap ka base html ka font-size ka related chalta ha-->

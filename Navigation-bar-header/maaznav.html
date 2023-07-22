@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+    .navigationbar{
+        display: flex;
+        justify-content: space-around;
+        background-color: violet;
+        align-items: center;
+        padding: 12px;
+
+    }
+    .parent .lip{
+        display: inline;
+        padding: 10px 30px;
+       
+    
+    }
+ 
+    .l1{
+        padding: 15px 17px;
+    }
+    .parent .l1:hover{
+        background-color: burlywood;
+    }
+    .parent{
+        list-style-type: none;
+        position: relative;
+    }
+    .u1{
+        position: absolute;
+        background-color: red;
+         display: none; 
+        left: 110px;
+        list-style-type: none;
+    
+    }
+    ul li:hover ul{
+        display: block;
+    }
+
+
+
+</style>
+
+
+
+
+
+<body>
+
+    <header>
+
+        <nav class="navigationbar">
+            <h1>Professional</h1>
+            <ul class="parent">
+                <li class="lip">Home</li>
+                <li class="lip">Home
+                    <ul class="u1">
+                        <li class="l1">Skills</li>
+                        <li class="l1">Skills</li>
+                        <li class="l1">Skills</li>
+                        <li class="l1">Skills</li>
+                    </ul>
+                </li>
+                <li class="lip">Home</li>
+                <li class="lip">Home</li>
+                <li class="lip">Home</li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+</body>
+</html>

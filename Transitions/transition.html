@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        display: flex;
+        justify-content: center;
+     align-items: center;
+     height: 100vh;
+    }
+    .div1{
+        height: 300px;
+        width: 400px;
+        background-color: yellowgreen;
+        align-items: center;
+        transition: all 4s;
+        /* all means apply all property */
+    
+
+    }
+    .div1:hover{
+   background-image: url(../Images/download\ \(2\)maaz.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+transform: translateX(460px);
+transform: translateX(-460px);
+transform: translateY(150px);
+transform: scale(2);
+/* transform: translateY(-150px); */
+/* transform: rotate(360deg); */
+/* transform: rotateZ(360deg); */
+/* transform: skewY(-300px); */
+/* transition-delay: 2s; */
+    }
+    .div1{
+        height: 300px;
+        width: 400px;
+        background-color: black;
+        align-items: center;
+        transition: all 2s;
+        /* all means apply all property */
+    
+
+    }
+    .div2:hover{
+   background-color: purple;
+transform: translateX(460px);
+/* transform: translateX(-460px); */
+/* transform: translateY(150px); */
+/* transform: translateY(-150px); */
+/* transform: rotate(360deg); */
+/* transform: rotateZ(360deg); */
+/* transform: skewY(-300px); */
+/* transition-delay: 1s; */
+    }
+</style>
+<body>
+    <div class="parent">
+    <div class="div1"></div>
+    <div class="div2"></div>
+</div>
+</body>
+</html>

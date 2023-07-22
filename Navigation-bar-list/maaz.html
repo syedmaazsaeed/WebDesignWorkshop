@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nestednav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+}
+.k2ch{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 30px;
+}
+.k3ch{
+    list-style-type: none;
+}
+.k4ch{
+    list-style-type: none;
+}    
+.k2{
+    position: relative;
+}
+.k3{
+    position: absolute;
+    background-color: teal;
+    display: none;
+    left: 44%;
+  
+}
+.k4{
+    background-color: yellow;
+    position: absolute;
+    left: 5.3rem;
+    top: 18%;
+   
+
+ 
+}
+.k2ch:hover .k3{
+    display: block;
+}
+.k4ch{
+    padding: 20px;
+    display: none;
+ 
+
+ 
+}
+.k4ch:hover{
+    background-color: tomato;
+}
+
+.k3ch:hover .k4ch{
+    display: block;
+}
+.k3ch{
+    padding: 20px ;
+;
+}
+.k3ch:hover{
+    background-color: red;
+}
+
+
+</style>
+
+<body>
+
+
+    <header>
+        <nav class="nestednav">
+
+
+
+            <h1>Hello World!</h1>
+            <ul class="k2">
+                <li class="k2ch">Waqar</li>
+                <li class="k2ch">Waqar</li>
+                <li class="k2ch">Waqar
+                    <ul class="k3">
+                        <li class="k3ch">kumail</li>
+                        <li class="k3ch">kumail
+                            <ul class="k4">
+                                <li class="k4ch"> Maaz</li>
+                                <li class="k4ch"> Maaz</li>
+                                <li class="k4ch"> Maaz</li>
+                                <li class="k4ch"> Maaz</li>
+                            </ul>
+                        </li>
+                        <li class="k3ch">kumail</li>
+                        <li class="k3ch">kumail</li>
+                    </ul>
+                </li>
+                <li class="k2ch">Waqar</li>
+                <li class="k2ch">Waqar</li>
+            </ul>
+        </nav>
+
+
+
+
+
+
+    </header>
+</body>
+
+</html>

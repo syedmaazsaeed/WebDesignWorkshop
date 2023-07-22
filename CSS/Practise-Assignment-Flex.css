@@ -1,0 +1,35 @@
+.parent{
+    display: flex;
+    height: 100vh; /*is ki height apni marzi sa set karsakty han*/
+    border: 1px solid black;
+    justify-content: center;
+    justify-content: end;
+    justify-content: baseline;
+    justify-content: start;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* flex-flow: column-reverse;
+    flex-flow: row-reverse; */
+    
+      
+        
+    }
+    .child1{
+         height: 350px;
+        width:350px; 
+       
+        background-color: rgb(255, 0, 0);
+        text-align: center;
+    
+    }
+    .child2{
+        height: 350px;
+        width:350px;
+    
+        background-color:rgb(255, 251, 0);
+        text-align: center;
+    }
+    

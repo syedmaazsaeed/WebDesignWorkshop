@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-Query</title>
+</head>
+<style>
+    .p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .k{
+        flex-basis: 25%;
+    }
+    @media(max-width:1024px){
+        .k{
+            flex-basis: 33%;
+            background-color: cyan;
+            color: red;
+        }
+        p{
+            padding: 10px 20px;
+        }
+    }
+    @media(max-width:768px){
+        .k{
+            flex-basis: 50%;
+        }
+    }
+    @media(max-width:320px){
+        .k{
+            flex-basis: 100%;
+        }
+    }
+
+</style>
+
+
+
+<body>
+    
+
+<div class="p">
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+    <div class="k"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam rerum quidem quibusdam provident ut dicta nobis cum quod doloribus vitae deserunt at atque doloremque eaque autem ab, similique impedit.</p></div>
+</div>
+
+</body>
+</html>

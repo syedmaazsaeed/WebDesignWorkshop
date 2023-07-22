@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .n1{
+        background-color: black ;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    li{
+        padding: 10px 30px;
+        display: inline;
+
+    }
+    .up{
+        list-style-type: none;
+        position:relative ;
+        
+    }
+  
+    .u1{
+        position: absolute;
+        background-color: red;
+        display: none;
+        left: 100px;
+        
+       
+    }
+    ul li:hover .u1{
+        display: block;
+    }
+    .l1:hover{
+        background-color: black;
+    }
+    .l1{
+        display: block;
+    }
+    .u2{
+        background-color: #123;
+        left: 100%;
+        position: absolute;
+        display: none;
+        top: 35px;
+    }
+    .l2{
+        display: block;
+    }
+    ul li ul li:hover .u2{
+       display: block;
+    }
+    .l2:hover{
+        background-color: red;
+
+    }
+</style>
+<body>
+    <header>
+<nav class="n1">
+    <h1>LOGO</h1>
+
+<ul class="up">
+    <li>items</li>
+    <li>items
+        <ul class="u1">
+            <li class="l1">items1</li>
+            <li class="l1">items1
+                <ul class="u2">
+                    <li class="l2">items2</li>
+                    <li class="l2">items2</li>
+                    <li class="l2">items2</li>
+                    <li class="l2">items2</li>
+                </ul>
+            </li>
+            <li class="l1">items1</li>
+            <li class="l1">items1</li>
+        </ul>
+    </li>
+    <li>items</li>
+    <li>items</li>
+    <li>items</li>
+</ul>
+
+</nav>
+
+
+
+
+    </header>
+</body>
+</html>

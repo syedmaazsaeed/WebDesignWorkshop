@@ -1,0 +1,64 @@
+
+    .parent {
+        display: flex;
+        padding: 1rem;
+
+
+
+    }
+
+    .k1 {
+        background-color: darkgray;
+        width: 15%;
+        margin: 1rem;
+    }
+
+    .k2 {
+        width: 70%;
+
+
+    }
+
+    .k3 {
+        color: orange;
+    }
+
+    .parent2 {
+        background-color: lightgray;
+        width: 35%;
+        padding-left: 2%;
+     
+
+
+
+    }
+
+    .Grandparent {
+        display: flex;
+  
+
+
+    }
+
+    .parent1 {
+        width: 75%;
+        padding-right: 2%;
+        padding-left: 15%;
+   
+    }
+
+    .A1 {
+        color: orangered;
+    }
+
+    .A2 {
+        color: orangered;
+    }
+
+    .A3 {
+        color: orangered;
+    }
+
+    .A4 {
+        color: orangered;
+    }

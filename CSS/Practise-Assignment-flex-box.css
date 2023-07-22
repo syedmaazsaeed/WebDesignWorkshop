@@ -1,0 +1,44 @@
+.parent {
+    display: flex;
+    padding: 1rem;
+
+}
+
+
+.kid1 {
+    width: 12%;
+    background-color: lightgray;
+
+}
+
+.kid2 {
+    width: 77%;
+
+
+}
+
+.k {
+    color: orangered;
+}
+.parent1{
+    padding-left: 6px;
+
+}
+.parent2 {
+    background-color: grey
+    /* width: 35px;
+    /* padding-left: 26%; */ 
+
+}
+
+.kid4 {
+    color: orangered;
+}
+
+.kid2 {
+    width: 490px;
+}
+
+.grandparent{
+display: flex;
+} 

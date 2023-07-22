@@ -1,0 +1,43 @@
+
+    .parent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .kid1{
+        width: 350px;
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        align-items: center; /*text eaisly move centre*/
+        background-color: #998799;
+        font-weight: 300;
+        
+        
+        
+        }
+        .kid1{
+        font-size: large;
+        width: 28%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: red;
+        margin-top: -430px;
+        }
+        .kid2{
+            font-size: large;
+            width: 28%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: yellow;
+            margin-left: 270px;
+         
+        }
+        .kid3{
+            font-size: large;
+            width: 28%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: purple;
+            margin-left: 300px;
+            margin-top: 460px;
+            }

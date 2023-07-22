@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    #box{
+        background-color: red;
+        
+    height: 400px;
+        width: 500px;
+        /* background-image: linear-gradient( 180deg, red, green, blue,cyan ); */
+
+
+        /* background-image: linear-gradient( 0deg, red, green, blue,cyan ); */
+        /* background-image: linear-gradient( to bottom right, rgb(233, 19, 19), rgb(55, 173, 55),  rgb(54, 54, 204),cyan ); */
+        /* background-image: linear-gradient(red 10%, green 85%, blue 90%); */
+        /* background-image: linear-gradient(to right, black, red); */
+
+        /* background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); */
+
+        /* border-radius: 50%; */
+        /* background-image: radial-gradient( red,green,grey); */
+        /* background-image: radial-gradient(circle, red, yellow, green); */
+        /* background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black); */
+        background-image: radial-gradient(farthest-side at 50% 47%, red, yellow, black);
+
+        /* background-image: radial-gradient(red 5%, yellow 15%, green 60%); */
+        /* background-image: repeating-linear-gradient(red, yellow 10%, green 20%); */
+    }
+
+    
+</style>
+
+
+
+
+<body>
+    <div class="parent">
+<div id="box"></div>    
+</div>
+
+   
+</body>
+</html>
+
+
+<!-- gredient means combination of colors,merge -->
+
+<!-- transparency Method: -->
+<!-- To add transparency, we use the rgba() function to define the color stops. The last parameter in the rgba() function can be a value from 0 to 1, and it defines the transparency of the color: 0 indicates full transparency, 1 indicates full color (no transparency). -->

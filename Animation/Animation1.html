@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* overflow: hidden; */
+        background-color: black;
+        background-image: linear-gradient(#313F7F,#DCA36E,#0293A4,yellow);
+     
+    }
+
+    .kid {
+        height: 300px;
+        width: 300px;
+        background-color: #4F4F;
+        border-radius: 50%;
+        
+    }
+
+    .kid:hover {
+        height: 300px;
+        width: 300px;
+        background-color: red;   
+        
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: baloon 5s linear 0s infinite forwards;
+    }
+
+    @keyframes baloon {
+
+        /* 0% { 
+            background-color: #E83F;
+            
+        }
+
+        20% {
+            transform: translateX(200px);
+            /* transform: rotateX(360deg); 
+            background-color: blueviolet;
+        }
+
+        40% {
+            transform: translateX(-200px);
+            /* transform: rotateY(0deg); 
+            background-color: goldenrod;
+
+        }
+
+        60% {
+            transform: translateY(170px);
+            /* transform: rotateY(360deg); 
+            background-color: red;
+        }
+
+        80% {
+            transform: translateY(-170px);
+            /* transform: rotateY(240deg); 
+            background-color: cyan;
+        }
+
+        100% {
+            /* transform: rotate(-360deg); 
+ 
+            background-color: royalblue;
+        } */
+
+        0% {
+      transform: rotate(0deg) translateX(100px) rotate(0deg);
+   }
+   
+   100% {
+      transform: rotate(360deg) translateX(100px) rotate(-360deg);
+   }
+
+
+
+
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="kid">
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    1.  Timing-Funcation: 
+
+
+1.Linear
+2.infinite
+3.ease-in
+4.ease-out
+5.step-end
+6.step-start
+
+
+
+
+
+
+
+
+  -->

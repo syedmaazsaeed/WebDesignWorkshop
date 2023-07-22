@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+.parent1{
+    background-image: url(../Images/dennis-buchner-elk8DRDVYLI-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size:larger;
+    color: #fff;
+    /* text-shadow: 2px 2px 2px red; */
+
+}
+.studio{
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  color: turquoise;
+}
+.parent {
+    display: flex;
+    align-items: center;
+
+}
+
+.kid1 {
+    background-color: green;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+    /* flex props */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kid2 {
+    padding-left: .5rem;
+
+}
+.kid3{
+    width: 304px;
+}
+.grandparent{
+    
+    height: 90vh;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+.item{
+    margin: .5rem;
+}
+.parent2{
+ background-image: url(../Images/white.background.jpg);
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+ background-attachment: fixed;
+
+}
+
+.parent-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   /* jab flex da ga to hight or wirth auto select ho jae gi*/ 
+
+}
+.parent-2{
+    display: flex;
+}
+.c1{
+border: 1px solid black;
+
+width: 20%;
+
+
+}
+.c2{
+border: 1px solid black;
+width: 78%;
+
+}
+.c3{
+margin: 0px;
+margin:10px;
+/* 1st margin uper or lower side ko set karna ka lei use krty hn aur 2nd wala left right sa set karna ma  */
+border: 1px solid black;
+width: 33%;
+margin-top: 30px;
+
+}
+
+   
+   
+   .parent3{
+    background-image: url(../Images/austr.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    
+   
+   }
+  
+#Hello{
+    color: chocolate;
+}
+
+.Jack{
+    color: gold;
+}
+.Tommy{
+    color: purple;
+}
+#Rt{
+    color: brown;
+}
+#Hello{
+    color: yellowgreen !important;
+}
+   .parent4{
+    background-image: url(../Images/Australia-Sidney.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+   
+   }
+   .parent5{
+    background-image:url(../Images/Student-Visa-Australia.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+   }
+   .parent6{
+    background-image:url(../Images/australiaa.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+   }
+   .parent1st{
+    display: flex;
+    align-items: center;
+    background-color:  #3A3B3C;
+    color: white;
+    justify-content: space-evenly;
+    
+      }
+      .maaz{
+        font-size:25px;
+        margin-right: 200px;
+      }
+      ul{
+        list-style-type: none;
+      }
+      li{
+        display: inline;
+        padding: 10px 30px;
+       font-weight:900;
+      }
+      li a{
+        text-decoration: none;
+        color: white;
+      }
+      li:hover{
+        background-color: cyan;
+      }
+      .kpl{
+        padding-left: 10px;
+      }
+  
+  
+   .parent7{
+    background-image: url(../Images/facebook.jpga.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: max-content;
+   }
+   .parent8{
+    background-image: url(../Images/white.background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+   }
+   
+
+   

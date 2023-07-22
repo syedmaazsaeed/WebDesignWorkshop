@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    /* #wrapper{
+        margin: 30px;
+    
+    } */
+   
+    .equal {
+        float: right;
+    }
+    /*,means h1 ko bhi color kare ga 
+    agar , use nahi kary ga tabh ham h1 ka inside jo elements han just wohi kary ga */
+    h1 , .equal {
+        color: #fff;
+    }
+
+    header {
+        display: inline;
+    }
+    .navbar {
+        background-color: #123;
+        padding: 20px ;
+    }
+    .container1 {
+        background-color: yellow;
+        height: 400px;
+    }
+    .container1 img{
+        position: absolute;
+        top: 120px;
+        left: 55px;
+        height:400px;
+        width: 570px;
+    }
+    
+    .container1 h1{
+        color: #fff;
+        position: absolute;
+        top: 480px;
+        left: 419px;
+    }
+    .container1 p {
+        position: relative;
+        left: 50%;
+        top: 100px;
+        width: 500px;
+        font-size: 18px;
+    }
+    .container2 {
+        background-color: #123;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    #wrapper2 {
+        margin-top: 5rem;
+        width: 800px;
+    }
+    .button {
+        background-color: yellow;
+        height: 50px;
+        width: 200px;
+        margin-left: 350px;
+    }
+    .imggrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="navbar">
+                <h1>Logo <span class="equal">=</span></h1>  
+            </nav>
+        </header>
+        <div class="container1">
+    
+    
+                <div class="img-div">
+    
+                    <img src="../Images/hacker.jpg.jpg" alt="" >
+                    <h1>Location Verified</h1>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat nemo iure sapiente? Non iste
+                    nemo ratione, ea, recusandae fugit alias illum assumenda corrupti consectetur aliquam rem enim ipsa odio
+                    repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequatur accusantium
+                    labore nemo asperiores. Eveniet nobis assumenda reiciendis sequi a totam, debitis similique tenetur
+                    veritatis.
+    
+                    <br><br><br>
+    
+                    I mage From Freepik
+    
+                    <br><br>
+                </p>
+    
+        </div>
+    <div class="container2">
+        <div id="wrapper2">
+            <h1 class="yy">design</h1>
+            <h3>outside, tasty on the inside.</h3>
+            <p class="qq">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid fugiat quae dignissimos,
+                consectetur dolores porro cum maxime explicabo ex esse recusandae inventore laboriosam dolorum quos
+                voluptatibus. In eligendi consequuntur sapiente! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Iste, ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing lorem ipsum dummy <br> <u> elit.
+                    Minima,</u> natus?</p>
+                    <br>
+            <button class="button">LEARN MORE</button>
+            <br><br>
+            <div class="imggrid">
+                <img src="../Images/Assassin creed.png" alt="" height="290px" width="250px">
+                <img src="../Images/Australia-Sidney.jpg" alt="" height="290px" width="250px">
+                <img src="../Images/hacker3.jpg" alt="" height="290px" width="250px">
+               
+                <img src="../Images/dream.jpg" alt="" height="290px" width="250px">
+                <img src="../Images/nature.jpg.jpg" alt="" height="290px" width="250px">
+                <img src="../Images/Student-Visa-Australia.jpg" alt="" height="290px" width="250px">
+            </div>
+        </div>
+    
+        </div>
+    
+    
+    
+   
+    
+    </div>
+    
+
+</body>
+
+</html>

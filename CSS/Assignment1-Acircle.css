@@ -1,0 +1,40 @@
+.parent {
+    display: flex;
+    align-items: center;
+
+}
+
+.kid1 {
+    background-color: green;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+    /* flex props */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kid2 {
+    padding-left: .5rem;
+
+}
+.kid3{
+    width: 304px;
+}
+.grandparent{
+    
+    height: 90vh;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+.item{
+    margin: .5rem;
+}

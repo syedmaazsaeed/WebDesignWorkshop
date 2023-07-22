@@ -1,0 +1,75 @@
+.parent{
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+   
+   
+}
+.a1{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+   background-color: darkred;
+}
+.parent1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+a2{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+   
+}
+li:hover{
+   background-color: darkred;
+}
+.mq{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.mq{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+   
+}
+li:hover{
+   background-color: darkred;
+}
+.p{
+    padding: 5px;
+}

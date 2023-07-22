@@ -1,0 +1,21 @@
+*{
+   
+}
+.rubby{
+    word-spacing: 6px;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+.container{
+
+    margin: 150px auto;
+    width: 40% ;
+    padding: 8px;
+}
+img{
+    float: right;
+    width: 300px;
+    height: 260px;
+    padding: 0px ;
+}

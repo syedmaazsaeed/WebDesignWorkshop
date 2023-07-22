@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- use internal css -->
+    <style>
+        p{
+            color:blue
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="practise index-style lec1.css">
+<style>
+    h1{
+        background-color: black;
+        color:red;
+    }
+
+    h2{ background-color: black;
+
+        color: orangered;
+    }
+    .Euro{ 
+        color: crimson;
+    }
+    #Australia{ 
+        color: darkorange;
+    }
+</style>
+<body style="background-color: purple;">
+    
+<h1>There are three types of CSS</h1>
+<h2>1-- INLINE CSS</h2>
+<h2>2-- INTERNAL CSS</h2>
+<h2>3-- EXTERNAL CSS</h2>
+
+<h2>1-- INLINE CSS</h2>
+<p style="color: gray;">java script is the scripting language eaisly run Any Browser.Java and javascript is not same java is used for software or application development</p>
+<p style="font-family:Roboto;font-size:50px ">Lorem, ipsum dolor.</p>
+<details>
+    <summary> <mark><b>Full  Stack Developer</b></mark></summary>
+<p class="Euro">A Full-Stack developer is a professional responsible for working on both front-end and back-end development processes. They design, develop, and maintain fully-fledged and functioning platforms with databases or servers. These servers do not need other third-party applications to build an entire system from scratch.</p></details>
+
+
+<p id="Australia">A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+
+<p id="Sidney">So, how long does it take to become a full stack developer? Three months is generally the minimum amount of time required, and this timeline tends to be best suited to highly-motivated learners.</p>
+
+
+
+
+
+
+</body>
+</html>
+
+<!-- inline, internal,external 1st precedence inline and internal ,external
+css precedence pick after if precedence 1st so use important-->
+
+
+<!-- Inline and External both are used by Tag, by class, by id (unique)
+ class always call . and id always call # 
+ External link other file use link tag not use anchor tag (href) anchor tag
+The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+    The <a> tag (anchor tag) in HTML is used to create a hyperlink on the webpage. This hyperlink is used to link the webpage to other web pages or some section of the same web page. It's either used to provide an absolute reference or a relative reference as its “href” value......
+    
+
+ link tag use The <link> tag defines the relationship between the current document and an external resource. The <link> tag is most often used to link to external style sheets or to add a favicon to your website. The <link> element is an empty element, it contains attributes only.
+
+     The REL attribute is used to define the relationship between the linked file and the HTML document. REL=StyleSheet specifies a persistent or preferred style while REL="Alternate StyleSheet" defines an alternate style. A persistent style is one that is always applied when style sheets are enabled.
+    link used after head and before body
+
+
+    css body type method * or body * for all and body only write paragraph 
+    
+    a margin is the space around an element's border, while padding is the space between an element's border and the element's content  -->
+
+
+
+    <!--Inline CSS : 
+         Inline CSS is the technique to define the single element with the insert style sheets in an HTML document.   basically used for specifyning style,,,Inline styles are styles that are applied to a specific element within the body section of the webpage,,,    Inline CSS allows you to apply style rules to specific HTML elements. Inlining CSS means putting CSS into an HTML file instead of an external CSS. Since inline CSS allows the application of a unique style to one HTML element, its usage is limited but is beneficial for creating unique attributes.If you want to use inline CSS, you should use the style attribute to the relevant tag.An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element. 
+         1. use inline css very difficulty in html 
+         use inline css just define many property write  in single line use inline and internal 
+         both  most perference inline
+        
+        
+          Internal CSS : us web page ka andar css apply karna jitna bhi tag han un sabh ma apko same style apply karna multiple paragraphys apply same time syle
+          use method head ka andar likhna pare ga phir style declare karna pare ga use p {}tag p is html selector apply all
+                             -->
+                             <!-- External css ma just ham na jo css ka doosrey file
+                            ka content dala ha wo hamay yahan la aye ga-->
+                           <!-- style element mentioned in css color,background ,font, font 
+                        family
+                    
+                    hamaray pas 10 web pages ha to ham alag alag internal code type nahi kare ga to us wqt external css use kare ga time waste ho ga wahan par hamy aik
+                alag sa css file banaye ho gi phir hamay external link karna ka lei html file 
+            mean internal waly ko link karna pare ga to tabh use kare ga link tag
+        to hamary jtna bhi web pages hon ga un sabhi ma styling apply ho jae gi
+    1st create external file and link html file sa h1 karo p par karo apni marzi ha external css ma
+aik website par bhot sarry web pages hoty hn -->
+<!--
+    id use: 
+use id aik name ka 2 name nahi ho sakty aik web page par 1 id only one element 
+id is lei di jaty ha ko us ko uniquely identify kia jasaky
+ js ma kare ga 
+
+class use 
+class ka name likh kar multiple properties change kar sakty han color change...
+  marey website par 100 elemnts han aur un sabh ma mujhe red color appply karna ha
+   method 1 alag alag style define karo  is sa bachna ka lei ap redbg name ki class bana lo
+ ga us ma jo bhi color define karo ga sabh par ho jae ga
+
+1 element only one id 
+air 1 id sirf 1 elemet ma ho sakty ha 
+lkn classes ma redbg da sakta hon classes ma red green blue
+multiple classes one elements-->
+
+<!--  comments control slash-->
+
+<!-- INLINE ELEMENT :
+
+                         Pargraph is the block element (wo sarry jaga la lata ha baki next line ma ata 
+                         ha) use p tag <p> I go to Autralia</p>
+                                        <p> Visa Granted</p>
+                                         i go to australia and visa granted both are show next line
+                                         but use span tag same line bcs span is inline element
+                                         <span> I go to Autralia</span
+                                            <span> Visa Granted</span
+                                                show same line
+                                                 inline jitni jaga ha utni laty han
+
+                                              a bhi inline elemnt ha
+
+
+p is block element
+a is inline element
+span is inline element
+b is inline element
+a is also inline element
+li is block
+div is block... div tag is basically used for division whole html documents divide sections
+div aik container ha jo data ko apna under rakhta ha move eaily left or top by default
+img is inline
+br is also inline
+emmet is
+
+   BLOCK ELEMENT : 
+aur block element pury jaga consume kar leta han-->

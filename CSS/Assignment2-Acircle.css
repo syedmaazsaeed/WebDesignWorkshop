@@ -1,0 +1,44 @@
+.parent {
+    display: flex;
+    align-items: center;
+   
+}
+
+.kid1 {
+    background-color: green;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.kid2{
+        padding-left: 1rem;
+    }
+
+.Grandparent {
+    display: flex;
+  align-items: center;
+  
+height: 90vh;
+
+   
+    
+
+
+}
+
+.kid3 {
+    width: 230px;
+}
+.item{
+ padding-left: 7%;
+
+
+}

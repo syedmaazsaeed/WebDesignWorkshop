@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 23px;
+}
+ul{
+    list-style-type: none;
+}
+li {
+display: inline;
+padding: 10px 30px;
+
+}
+li a{
+text-decoration: none;
+color: black;
+}
+li:hover{
+    background-color: aqua;
+}
+.parent1{
+    background-color: red;
+    justify-content: space-around;
+    display: flex;
+
+} 
+.op{
+    padding-left: 134px;
+    margin-top: -16px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation-bar{
+    background-color: tan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+}
+.p1child{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 30px;
+ 
+
+}
+
+.p2child{
+    list-style-type: none;
+  
+}
+.p3child{
+    list-style-type: none;
+}
+ .p1{
+    position: relative;
+
+ }
+.p2{
+    position: absolute;
+    left: 18rem;
+    top: 26px;
+    display: none;
+
+}  
+.p2child{
+    background-color: violet;
+    padding: 15px;
+}
+.p3{
+    position: absolute;
+    left: 4.6rem;
+ bottom: -1rem;
+ display: none;
+}
+ 
+.p3child{
+    background-color: yellow;
+    padding: 15px;
+}
+.p2child:hover{
+    background-color: tomato;
+}
+.p3child:hover{
+    background-color: rgb(79, 92, 65);
+}
+.p1child:hover .p2{
+    display: block;
+}
+.p2child:hover .p3{
+    display: block;
+}
+
+
+</style>
+
+<body>
+    
+<header>
+
+    <nav class="navigation-bar">
+<h1>Android</h1>
+
+<ul class="p1">
+    <li class="p1child"> <strong> Java</strong></li>
+    <li class="p1child"> <strong> Java</strong></li>
+    <li class="p1child"> <strong>Java</strong></li>
+    <li class="p1child"> <strong> Java</strong>
+        <ul class="p2">
+            <li class="p2child">Flutter</li>
+            <li class="p2child">Flutter</li>
+            <li class="p2child">Flutter
+                <ul class="p3"> 
+                    <li class="p3child">Kotlin</li>
+                    <li class="p3child">Kotlin</li>
+                    <li class="p3child">Kotlin</li>
+                    <li class="p3child">Kotlin</li>
+                </ul>
+            </li>
+            <li class="p2child">Flutter</li>
+            <li class="p2child">Flutter</li>
+            <li class="p2child">Flutter</li>
+        </ul>
+    </li>
+    <li class="p1child"> <strong> Java </strong></li>
+    <li class="p1child"> <strong> Java </strong></li>
+</ul>
+
+    </nav>
+
+
+
+
+</header>
+
+</body>
+</html>

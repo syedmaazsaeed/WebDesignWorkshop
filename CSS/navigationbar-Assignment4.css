@@ -1,0 +1,73 @@
+.parent {
+    background-color: #996515;
+    color: white;
+    padding: 3%;
+    text-align: start;
+
+}
+
+.maaz {
+
+    background-color: #DAA520;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.maaz li {
+
+    display: inline;
+    padding: 10px 25px;
+
+}
+
+.maaz li a {
+    text-decoration: none;
+    color: white;
+}
+
+.maaz li:hover {
+    background-color: purple;
+}
+
+.maaz ul {
+    list-style-type: none;
+}
+
+.parent2 {
+    background-color: #CC7722;
+    padding: 2rem;
+    width: 200px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: start;
+    
+
+
+
+}
+
+.par {
+    width: 870px;
+}
+
+.par1 {
+    width: 870px;
+}
+
+.s2 {
+    color: #996515
+}
+
+.Grandparent {
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.Grandparent1 {
+    margin: 20px;
+}

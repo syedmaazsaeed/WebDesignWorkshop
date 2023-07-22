@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+     *{
+        margin:0;
+        padding: 0;
+    } 
+    .div{
+        height: 400px;
+        width: 400px;
+        background-color: black;
+        position: relative;   /* jis pic ko da rahe han */
+        top: 90px;
+        left: 100px;
+    }
+    .div1{
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        position: absolute;
+        opacity: 40%;
+      z-index: 4;
+        top: 90px;
+        left: 100px;
+        
+    }
+    .div2{
+        height: 100px;
+        width: 100px;
+        background-color: fuchsia;
+        /* visibility: hidden; */ 
+        position: absolute;
+        z-index: 4;
+        opacity: 0.7;
+        top: 90px;
+        left: 100px;
+    }
+</style>
+
+
+
+
+
+
+<body>
+    <div class="div"></div>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>
+<!-- z-index only be work posistion absolute,fixed,sticky,relative
+default position static z-index not be work top ma px da sakty han z-index ma px nahi da ga
+kisi cheez ko kisi doosray cheez ka oper lany ka lei dono ma sa jis ki bhi z-index bary ho gi 
+wo oper ajaee gi stacking order -->
+
+<!-- What is the use of Z Index?
+The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. -->
+
+
+<!-- use visibility to hidden any elements  -->
+<!-- visibility hidden space reserve rakta ha aur display none space reserve nahi karta -->
+<!-- display none: will hide the element and the space 
+
+visibility hidden: will hide the element but will show its a empty space -->
+<!-- display inline basically height, width set automatically in one line 
+position static by default -->
+
+<!-- CSS Positions:
+1. Position relative 
+
+(agar position ko relative kr dia ha to hm top bottom left right use 
+eaisly relative to its normal position top:34px apni current jaga ko chor da ga aur move kr jae ga)
+agar hamy old position ma gap required ho to tabhi position required use kary ga
+and will leave up gap
+relative to its normal position and will leave a gap 
+
+2. Position absolute
+aur agar gap na dena ho tabhi absolute use kary ga 
+relative to parrent 
+agar ma gap nahi chata to 1st parent
+Relative to the position to its 1st parent
+
+
+3. Position fixed
+ box fixed ho jaeya ga not be changeable
+  position of the element relative to browser window
+
+4.Position sticky
+
+picture paste ho jae gi
+
+5.Position static (by default) -->

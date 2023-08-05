@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 1. What is website ? -->
+    <!-- 
+        A website is a collection of web pages that are accessible through the internet. It is like a digital space or location where individuals, businesses, or organizations can share information, provide services, or interact with others.
+
+        Think of a website as a virtual storefront or an online brochure. Just like a physical store or a brochure provides information or sells products, a website does the same but in a digital format. It allows people to navigate through different pages that are interconnected, usually accessed through links or menus.
+
+        Each web page within a website can contain various types of content, such as text, images, videos, forms, and interactive elements. These pages can be organized and designed in a way that makes it easy for visitors to find the information they are looking for.
+
+        A website can serve different purposes. It can be used to showcase products or services, provide information, share news or articles, offer online shopping, facilitate communication, or even provide entertainment. Websites can be static, with fixed content that rarely changes, or dynamic, with regularly updated information or user-generated content.
+
+        To access a website, you need a web browser like Chrome, Firefox, or Safari. By typing in the website's address or URL, you can visit the website and explore its pages and content.
+     -->
+
+
+    <!-- 2. What is Web Development? -->
+    <!-- 
+        Web Development refers to the process of creating websites and web applications that are accessible via the internet. It involves the design, development, and maintenance of websites, encompassing various aspects such as web design, client-side scripting, server-side scripting, database management, and network security.
+
+        Web development typically involves a combination of programming languages, frameworks, and tools to build the different components of a website. Frontend development focuses on creating the user-facing interface, including the layout, design, and interactivity using technologies like HTML, CSS, and JavaScript. Backend development involves handling server-side logic, database management, and ensuring the functionality and security of the website.
+     -->
+
+
+    <!-- 3. what is Full Stack Development -->
+    <!-- 
+        Full Stack Web Development refers to the practice of building both the client-side (frontend) and server-side (backend) components of a web application. A Full Stack Web Developer is proficient in multiple programming languages, frameworks, and technologies necessary for developing both the user-facing interfaces and the underlying server infrastructure.
+
+        In Full Stack Web Development, frontend development involves creating interactive and responsive user interfaces using HTML, CSS, and JavaScript. This includes designing and implementing the visual elements, layout, and user interactions of a website or web application.
+
+        On the backend, a Full Stack Web Developer handles server-side programming, database management, and server infrastructure setup. They use technologies such as Python, Node.js, Django, or Flask to handle server-side logic and communicate with databases. This involves processing data, handling user authentication, managing application state, and integrating with external services.
+
+        A Full Stack Web Developer is responsible for understanding the entire web development stack, from the user interface to the server infrastructure. They are capable of seamlessly integrating frontend and backend components to create fully functional and dynamic web applications.
+    -->
+
+ <!-- HTML  Basic Introduction -->
+    <!-- 
+        1. HTML is the standard markup language for creating Web pages.
+        2. It is a markup language used to structure and present content on the internet.
+        3. With HTML, web developers create the building blocks of web pages, defining the structure, layout, and   elements of a website.
+
+        4. HTML consists of a series of elements
+        5. HTML elements tell the browser how to display the content
+        
+
+        HTML uses tags to mark up different elements such as headings, paragraphs, images, links, and more. These tags define the purpose and formatting of each element, allowing web browsers to interpret and display the content correctly. HTML works hand-in-hand with CSS (Cascading Style Sheets) to control the visual appearance of web pages.
+
+        By learning HTML, you gain the ability to create well-organized and semantically structured web pages. You can format text, add images, create lists, embed multimedia, and link different pages together. HTML is the language that enables websites to be interactive, accessible, and user-friendly.
+
+        Whether you are a beginner or an experienced developer, HTML is an essential skill for anyone interested in web development. It forms the backbone of every website and provides the necessary structure for other technologies to build upon. With HTML, you have the power to shape the digital world and create engaging online experiences for users worldwide.
+
+    -->
+
+        <!-- A Simple HTML Document -->
+    <!-- 
+        The basic structure of an HTML document consists of the following components:
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>Title of the Page</title>
+            </head>
+        <body>
+            Content of the web page goes here
+        </body>
+        </html>
+
+     -->
+
+     
+     <!-- Lets Explain Each Line of Code -->
+     <!-- 
+        
+        <!DOCTYPE html>
+        This declaration at the very beginning of the document specifies the version of HTML being used. In this case, it represents HTML5.
+
+        <html>: The <html> element serves as the root element of an HTML document. It encapsulates the entire content of the web page.
+
+        <head>: The <head> element contains meta-information about the HTML document. It includes elements like <title>, which defines the title displayed in the browser's title bar or tab.\
+
+        <title>: The <title> element sets the title of the web page. This title is displayed in the browser's title bar or tab, and it also appears in search engine results.
+
+        <body>: The <body> element encloses the visible content of the web page. It contains all the elements like headings, paragraphs, images, links, forms, and other elements that make up the main content of the page.
+
+      -->
+
+      <!-- 
+        
+        When you create an HTML document, you start with this basic structure. The <head> section is used for meta-information and defining the title, while the <body> section contains the visible content that users see when they visit the webpage.
+
+        By organizing your HTML code within this structure, you ensure that your web page is well-formed and adheres to the standards of HTML. It provides a solid foundation to build upon and allows browsers to interpret and render the content correctly.
+
+       -->
+
+       <!-- HTML is the combinations of tags -->
+       <!-- 
+            There are two types of Tags in HTML
+            
+            1. Single Tag - also known as self closing tags
+            2. Pair Tags
+        -->
+
+        <!-- 
+            
+            1. Single Tag 
+
+            Single tags, as the name suggests, are tags that do not require a closing tag. They represent standalone elements or components that do not contain any content within them. Single tags are self-closing, meaning they end with a forward slash (/) before the closing angle bracket (>). These tags are used to insert specific elements into the document without enclosing any content.
+
+            Examples of single tags:
+
+            <br>: Represents a line break or line break-like separation.
+            <img src="image.jpg" alt="Description">: Displays an image on the webpage.
+            <hr> is used for horizentel Lines
+
+
+            2. Pair Tags
+            
+            Pair tags, also known as opening and closing tags, are used to enclose content between them. The opening tag starts with a less-than symbol (<), followed by the tag name, and ends with a greater-than symbol (>). The closing tag starts with a less-than symbol (<), followed by a forward slash (/), the tag name, and ends with a greater-than symbol (>). The content that needs to be enclosed is placed between the opening and closing tags.
+
+            Examples of pair tags:
+         -->
+
+        <!-- Represents the main heading of a section. -->
+        <h1>Heading 1</h1>
+        
+        <!-- Defines a paragraph of text. -->
+        <p>This is a paragraph.</p>
+        
+        <!-- Creates a hyperlink to another webpage. -->
+        <a href="https://github.com/">Link</a>
+        
+        <!-- Defines a division or container for grouping content. -->
+        <div>Content goes here</div>
+
+        <!-- 
+           
+            Pair tags ensure that the enclosed content is properly structured and can be styled or manipulated as a cohesive unit. They are fundamental for organizing and presenting content in HTML documents.
+            
+        -->
+
+ <!-- HTML Attributes -->
+    <!-- 
+        
+        1. HTML attributes are additional properties that provide extra information about an HTML element. 
+        
+        2. They are used to modify or enhance the behavior, appearance, or functionality of the element. 
+        
+        3. Attributes are placed within the opening tag of an HTML element and consist of a name-value pair.
+
+        Example: 
+     -->
+
+     <img src="image.jpg" alt="Description of the image" width="300" height="200">
+
+     <!-- 
+
+        In this example, the src, alt, width, and height attributes are used to provide additional information about the image element:
+
+        1. The src attribute specifies the URL or path of the image file.
+        
+        2. The alt attribute provides alternative text that is displayed if the image fails to load or for accessibility purposes.
+        
+        3. The width and height attributes define the dimensions of the image in pixels.
+
+
+        Attributes extend the capabilities of HTML elements, allowing you to customize their behavior, presentation, or interaction. They play a crucial role in creating dynamic and interactive webpages.
+
+      -->
+
+    
+        
+    <!-- The style Attribute  -->
+    <!-- The style attribute is used to add styles to an element, 
+        such as color, font, size, and more. -->
+
+    <p style="color:red;">This is a red paragraph.</p>
+    
+
+    <!-- The lang Attribute -->
+    <!-- 
+        You should always include the lang attribute inside the <html> tag, 
+        to declare the language of the Web page. 
+        This is meant to assist search engines and browsers.
+    -->
+
+    <html lang="en">
+    <html lang="en-US">
+
+    <!-- We Suggest: Always Use Lowercase Attributes -->
+    <!-- 
+
+        The HTML standard does not require lowercase attribute names.
+        The title attribute (and all other attributes) can be written with uppercase or lowercase like title or TITLE.
+
+     -->
+    
+     <p style="font-family: 'Segoe UI';">This is a red paragraph.</p>
+
+  <!-- HTML Element -->
+    <!-- 
+        An HTML element is a building block of a webpage. It represents different parts or components within the webpage, such as headings, paragraphs, images, links, buttons, forms, and more.
+
+        An HTML element is defined by a start tag, some content, and an end tag.
+        
+        syntax : 
+        <tagname>Content goes here...</tagname>
+    -->
+
+    <!-- Examples of some HTML elements -->
+    <h1>My First Heading</h1>
+    <p>my first paragraph</p>
+
+    <!-- Start tag          Element content	            End tag -->
+    <!-- <h1>               My First Heading            </h1>   -->
+    <!-- <p>                My First paragraph          </p>   -->
+
+    <!-- HTML is Not Case Sensitive -->
+    <!-- HTML tags are not case sensitive: <P> means the same as <p>. -->
+
+    
+    <!-- Empty HTML Elements -->
+    <!-- 
+        HTML elements with no content are called empty elements.
+        The <br> tag defines a line break, and is an empty element without a closing tag:
+     -->
+
+         <!-- HTML Display -->
+
+    <!-- 
+        1. You cannot be sure how HTML will be displayed.
+        
+        2. Large or small screens, and resized windows will create different results.
+        
+        3. With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+
+        4. The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+     -->
+
+     
+    <!-- HTML Text Formatting -->
+    <!-- 
+        In HTML, you can apply various text formatting options to enhance the appearance and style of your text content. 
+    -->
+
+    <!-- Bold: Use the <strong> or <b> tag to make text appear in bold. For example: -->
+    <strong>This text is bold.</strong>
+    
+    <!-- or -->
+    <b>This text is bold.</b>
+
+    <!-- 
+            <strong> tag: The <strong> tag is used to indicate text with strong importance or significance, emphasizing its importance for semantic purposes. It carries a semantic meaning of importance beyond just visual styling. Browsers and assistive technologies may interpret the <strong> tag to emphasize the text and give it more weight in terms of significance or importance. It is typically used for emphasizing keywords, important points, or critical information within a document.
+
+        or 
+
+            <b> tag: The <b> tag, on the other hand, is primarily used for applying a visual presentation of bold text. It is not specifically tied to any semantic meaning. The <b> tag was traditionally used to represent text in a bold style when semantic meaning was not a concern. While it still visually renders the text in bold, it is generally recommended to use the <strong> tag instead when emphasizing text with semantic importance.
+
+        In most cases, it is best to use the <strong> tag when you want to convey strong importance or emphasize text with semantic meaning. This ensures that the text is properly interpreted by browsers, search engines, and assistive technologies. The <b> tag can still be used for purely presentational purposes, but it is advisable to reserve it for situations where there is no specific semantic meaning associated with the bold text.
+
+    -->
+
+
+    <!-- Italic: Use the <em> or <i> tag to make text appear in italic. For example: -->
+    <em>This text is italic.</em>
+
+    <!-- or -->
+    <i>This text is italic.</i>
+
+    <!-- 
+            <em> tag: The <em> tag is used to indicate text with emphasis or stress, emphasizing its importance or changing the tone of the content. It carries a semantic meaning of emphasis beyond just visual styling. Browsers and assistive technologies may interpret the <em> tag to emphasize the text and give it more weight in terms of importance or conveying the author's intention. It is typically used for emphasizing keywords, phrases, or sections of text that need special attention or to convey a particular emphasis.
+        
+        or
+
+            <i> tag: The <i> tag is primarily used for applying a visual presentation of italic text. It is not specifically tied to any semantic meaning. The <i> tag was traditionally used to represent text in an italic style when semantic meaning was not a concern. While it still visually renders the text in italic, it is generally recommended to use the <em> tag instead when emphasizing text with semantic importance.
+        
+        In most cases, it is best to use the <em> tag when you want to convey emphasis or stress to text with semantic meaning. This ensures that the text is properly interpreted by browsers, search engines, and assistive technologies. The <i> tag can still be used for purely presentational purposes, but it is advisable to reserve it for situations where there is no specific semantic meaning associated with the italic text.
+
+    -->
+
+    <!-- Underline: Using the <ins> and <u> tag to underline text. For example: -->
+    <p>The <ins>new</ins> version of the website is now live.</p>
+
+    <!-- or -->
+
+    <u>This text is underlined.</u>
+
+
+    <!-- 
+            <ins> tag: The <ins> tag is used to mark inserted or added content within a document. It is typically used to indicate text that has been recently added or modified compared to the original version. When rendered, the text wrapped with the <ins> tag is typically displayed with an underline by default, indicating that it is an addition to the content. The <ins> tag carries a semantic meaning of inserted or added content beyond just visual styling.
+        
+        or 
+
+            <u> tag: The <u> tag is used to underline text purely for visual presentation purposes. It does not carry any specific semantic meaning. The <u> tag was traditionally used to represent text with an underline when semantic meaning was not a concern. However, it is generally recommended to avoid using the <u> tag for underlining text, as underlining is commonly associated with hyperlinks, which could lead to confusion for users. Instead, the <u> tag can be used sparingly for specific cases where a different meaning is intended, but it is generally advised to use CSS styles to control the presentation of underlined text.
+        
+        In most cases, if you want to indicate added or inserted content within a document, it is best to use the <ins> tag to convey the semantic meaning of the addition. The <u> tag should be used cautiously and sparingly for specific cases where a different meaning is intended or for purely presentational purposes, such as styling specific text elements with an underline.
+  
+    -->
+
+
+    <!-- Strikethrough: Use the <s> or <del> tag to apply a strikethrough effect to text. For example: -->
+    <s>This text has a strikethrough.</s>
+
+    <!-- or -->
+    <del>This text has a strikethrough.</del>
+
+    <!-- 
+            <del> tag: The <del> tag is used to mark deleted or removed content within a document. It is typically used to indicate text that has been recently deleted or marked for removal compared to the original version. When rendered, the text wrapped with the <del> tag is typically displayed with a strikethrough effect by default, indicating that it is no longer part of the content. The <del> tag carries a semantic meaning of deleted or removed content beyond just visual styling.
+
+        or 
+
+            <s> tag: The <s> tag is used to apply a strikethrough effect purely for visual presentation purposes. It does not carry any specific semantic meaning. The <s> tag was traditionally used to represent text with a strikethrough when semantic meaning was not a concern. However, it is generally recommended to use the <del> tag instead when marking deleted or removed content to convey the semantic meaning of the deletion.
+        
+        In most cases, if you want to indicate deleted or removed content within a document, it is best to use the <del> tag to convey the semantic meaning of the deletion. The <s> tag should be used cautiously and sparingly for purely presentational purposes, such as styling specific text elements with a strikethrough.
+
+        Example:
+    -->
+    <p>The product price was initially $100, but it is now <del>$80</del>.</p>
+
+
+    <!-- Superscript -->
+    <!-- Use the <sup> tag to display text in superscript (above the normal line height). For example: -->
+    
+    <p> E=mc <sup>2</sup> </p>
+
+    <!-- Subscript -->
+    <!-- Use the <sub> tag to display text in subscript (below the normal line height). For example: -->
+    
+    <p>H<sub>2</sub>O</p>
+
+    
+    <!-- Small: Use the <small> tag to display text in a smaller font size. For example: -->
+    <small>This text is smaller.</small>
+
+
+    <!-- Code or Monospace:  -->
+    <!-- Use the <code> or <pre> tag to display text in a monospace font, ideal for showing code snippets or preserving formatting. For example: -->
+    
+    <code>console.log('Hello, world!');</code>
+    
+    <!-- or -->
+
+    <pre>
+        Roses are red,
+        Violets are blue;
+        Sugar is sweet,
+        And so are you.
+    </pre>
+
+
+    <!-- 
+        Remember, these tags should be used to represent the intended meaning of the text rather than just for visual appearance. Additionally, you can apply CSS styles to these tags or use CSS classes to achieve custom text formatting.
+
+        Experiment with these HTML text formatting tags to make your content visually appealing and highlight important information effectively.
+     -->
+
+  <!-- What is HTML Quotation  -->
+    <!-- 
+        HTML quotations are used to mark up quoted or cited content within a webpage. There are two main HTML elements for representing quotations:
+
+        1. <blockquote>
+        2.  <q> tag
+     -->
+
+     <!-- <blockquote> Element -->
+    <!-- 
+        This element is used to enclose longer, indented quotations. It is commonly used when quoting paragraphs or larger sections of text. By default, the browser will typically render the <blockquote> element with indentation.
+    -->
+
+    <blockquote>
+        <p>This is a quoted text.</p>
+        <p>It can span multiple paragraphs.</p>
+    </blockquote>
+
+
+    <!-- <q> Element-->
+    <!-- This element is used for shorter, inline quotations. It is typically used for quoting shorter phrases or sentences. By default, the <q> element will usually render the quoted text with quotation marks. -->
+
+    <p>The famous saying goes, <q>Actions speak louder than words.</q></p>
+    
+    <!-- Additionally, you can use the cite attribute with both <blockquote> and <q> elements to provide a citation or source URL for the quotation. This attribute helps to indicate the origin or reference of the quoted content.
+    -->
+
+    <!-- Example with cite attribute  -->
+
+    <blockquote cite="https://example.com/quote-source">
+        <p>This is a quoted text.</p>
+        <p>It can span multiple paragraphs.</p>
+        <cite>Source: Example.com</cite>
+    </blockquote>
+      
+
+    <!-- It's worth noting that the actual rendering of quotations may vary depending on the browser and CSS styles applied to your webpage. You can customize the appearance of quotations using CSS to match your desired design. -->
+
+
+
+    <!-- HTML <abbr> for Abbreviations -->
+
+    <!-- The HTML <abbr> element is used to mark up abbreviations or acronyms in an HTML document. It provides a way to give additional information about the abbreviation or acronym, such as its full expansion or description. This can be useful for accessibility purposes or when you want to provide clarification to your readers. -->
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> is a specialized agency of the United Nations.</p>
+
+    <!-- 
+        In this example, the abbreviation "WHO" is marked up using the <abbr> element. The title attribute is used to provide the full expansion or description of the abbreviation. When a user hovers over or interacts with the abbreviation, the title attribute value is typically displayed as a tooltip or additional information.
+
+        It's important to note that while the title attribute is commonly used with <abbr>, it is not required. The title attribute is used to provide additional information, but the <abbr> element can still be used without it.
+
+        Using the <abbr> element helps provide context and clarification for abbreviations and acronyms, making your content more accessible and understandable to a wider range of users.
+    -->
+
+
+
+
+    <!-- HTML <address> for Contact Information  -->
+    <!-- 
+        The HTML <address> element is used to mark up contact information or information about the author or owner of a document. It is typically used to represent contact details, such as an email address, physical address, phone number, or a URL.
+    -->
+
+    <address>
+        <p>Maaz Saeed</p>
+        <p><a href="mailto:syedmaazsaeeddev@gmail.com">syedmaazsaeeddev@example.com</a></p>
+        <p>123 Main Street, City, Country</p>
+    </address>
+
+    <!-- In this example, the <address> element is used to enclose the contact information of "John Doe." The information is presented in a structured manner using <p> elements for each line. The email address is marked up as a hyperlink using the <a> element.
+    -->
+
+    <!-- The <address> element is important for a couple of reasons:  -->
+    
+    <!-- Semantic meaning: By using the <address> element, you provide semantic meaning to the contact information, indicating that it represents contact details or information about the author/owner of the document. This helps assistive technologies and search engines understand the purpose and context of the information.
+
+    Accessibility: Properly marking up contact information with the <address> element can improve the accessibility of your webpage. Screen readers and other assistive technologies can identify the <address> element and convey the contact details to users with disabilities.
+
+    Styling and presentation: Browsers and CSS can apply default styling to the <address> element, making it visually distinguishable from other content on the page. However, the actual rendering may vary depending on the browser and the styles applied to your webpage. You can also apply custom styles to the <address> element to match the design of your website.
+
+    By using the <address> element, you enhance the semantics and accessibility of your contact information, making it more meaningful and usable for both humans and machines. 
+    -->
+    
+
+
+    <!-- HTML <cite> for Work Title -->
+
+    <!-- The HTML <cite> element is used to mark up the title or name of a creative work, such as a book, movie, song, or article. It is typically used to indicate the title or name of the work within a paragraph or sentence. -->
+
+    <p>I recently read an interesting book called <cite>The Great Gatsby</cite> by F. Scott Fitzgerald.</p>
+
+    <!-- In this example, the title of the book "The Great Gatsby" is marked up using the <cite> element. It helps to visually distinguish the title and provides semantic meaning to the work being referenced. -->
+
+
+    <!-- 
+        The <cite> element is important for a few reasons:
+
+        Semantic meaning: By using the <cite> element, you provide semantic meaning to the title of the work, indicating that it represents the name or title of a creative work. This helps assistive technologies, search engines, and other tools understand and process the content correctly.
+
+        Styling and presentation: Browsers and CSS can apply default styling to the <cite> element, making it visually distinct from the surrounding text. However, the actual rendering may vary depending on the browser and the styles applied to your webpage. You can also apply custom styles to the <cite> element to match the design of your website.
+
+        Accessibility: Properly marking up the title of a work with the <cite> element can improve the accessibility of your webpage. Screen readers and other assistive technologies can identify the <cite> element and convey the title of the work to users with disabilities.
+
+        It's important to note that the <cite> element should be used specifically for the title or name of a creative work and not for general citations or references. For citations or references, the <cite> element is not the appropriate choice. Instead, you can use the <blockquote> or <q> elements along with appropriate citation or reference markup.
+
+        By using the <cite> element, you enhance the semantics and accessibility of the title or name of a creative work, making it more meaningful and usable for both humans and machines.
+
+    -->
+
+
+
+
+      
+    <!-- HTML <bdo> for Bi-Directional Override  -->
+
+    <!-- The HTML <bdo> (Bi-Directional Override) element is used to override the default directionality of text in a webpage. It allows you to explicitly specify the direction in which the text should be rendered, overriding the default direction of the document or parent elements. -->
+
+    <p>This text is in the default direction.</p>
+    <bdo dir="rtl">This text is explicitly rendered right-to-left.</bdo>
+    
+    <!-- 
+        In this example, the <bdo> element is used to render the text inside it from right to left (RTL), overriding the default left-to-right (LTR) direction of the document. The dir attribute is used to specify the directionality, where rtl represents right-to-left.
+
+        The <bdo> element is typically used in scenarios where you have text in a different language or script that requires a different directionality than the surrounding content. It can be useful for languages such as Arabic or Hebrew, which are typically written right-to-left.
+
+        It's important to note that the <bdo> element should be used judiciously, as changing the directionality of text can have implications for readability, usability, and accessibility. It is generally recommended to rely on the default directionality of the document and use CSS styles to control text alignment and layout.
+
+        If you need to apply directionality to specific sections of text within an element, it's often better to use CSS properties like direction or text-align to control the rendering, rather than relying on the <bdo> element.
+
+        In summary, the <bdo> element is used to override the default directionality of text in HTML. However, it should be used carefully and sparingly, considering the impact on readability and accessibility.
+    -->
+    
+
+    
+
+</body>
+</html>

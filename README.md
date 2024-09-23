@@ -7,6 +7,7 @@ This course covers everything you need to know about web design, from the basics
 We will start with the fundamentals of HTML and CSS and progress to advanced topics such as responsive design, animations, and modern CSS techniques like Grid and Flexbox. By the end, you will have the skills to create dynamic, responsive websites.
 
 <h1>Topics Covered 🕑</h1>
+
 HTML Basics: Learn how to structure web pages with HTML.
 
 CSS Essentials: Style your web pages to make them visually appealing.

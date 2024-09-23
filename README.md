@@ -1,5 +1,5 @@
 Welcome to the [Syed Maaz Saeed] (https://github.com/syedmaazsaeed) Web Design Course repository. Everything you need to know about web design, from the fundamentals to cutting-edge methods, is covered in this extensive course.
-## Introduction
+<h1> Introduction 🚀 </h1>
 In this course, we will cover the foundations of web designing, starting with HTML and CSS. Gradually, we'll move on to more advanced topics like responsive web design, animations, and utilizing modern CSS techniques like Grid and Flexbox. By the end of the course, you'll be equipped with the knowledge to create stunning and dynamic websites.
 
 ## HTML Basics
@@ -34,10 +34,8 @@ Explore advanced web design concepts, including SASS, Bootstrap, and other popul
 ## Contributing To this course, contributions are welcome. Please raise an issue or make a pull request if you discover any problems or have suggestions for changes.
 
 
-Contact info
+<h1>Contact info</h1>
 
-You can contact Syed Maaz Saeed at [syedmaazsaeed@gmail.com] (mailto:syedmaazsaeed@gmail.com) with any questions or comments.
-
-
+You can contact Syed Maaz Saeed at [syedmaazsaeed@gmail.com] with any questions or comments.
 
 Happy studying!
